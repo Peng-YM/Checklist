@@ -301,6 +301,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sPG-xv-KJs">
                                                     <rect key="frame" x="255" y="6.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="shouldRemindToggled:" destination="g16-nn-TcR" eventType="valueChanged" id="67e-h0-Sqc"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
